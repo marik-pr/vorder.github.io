@@ -1,3 +1,7 @@
 theme: jekyll-theme-tactile
 plugins:
   - jekyll-seo-tag
+title: qstatix.github.io
+description: HumHub module.
+show_downloads: true
+google_analytics:
