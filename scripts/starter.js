@@ -1,7 +1,7 @@
 'use strict';
 var config = {};
 
-config.url = 'qstatix.github.io';
+config.url = 'https://qstatix.github.io';
 config.template_name = 'mara'; 
 config.template_path = config.url + '/templates/' + config.template_name;
 config.template_path_js = config.template_path + '/js/';
