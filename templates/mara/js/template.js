@@ -1,9 +1,9 @@
 'use strict';
 config.tpl = {
     html:{
-            header: '_header.html',
-            toolbar: '_toolbar.html',
-            middle: '_middle.html',     
+            header: 'header.html',
+            toolbar: 'toolbar.html',
+            middle: 'middle.html',     
     },
     target: document.body,
 
