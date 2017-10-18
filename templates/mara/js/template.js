@@ -19,7 +19,7 @@ class template{
           .attr({
               type: 'text/css', 
               rel: 'stylesheet',
-              href: config.template_path_css + "/theme.css"
+              href: config.template_path_css + "theme.css?v=" + config.nocache
           });
         
         for(var k in config.tpl.html){
