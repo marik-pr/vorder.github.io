@@ -62,3 +62,7 @@ div {
   overflow: visible;
   background: #333 url('//cdnjs.cloudflare.com/ajax/libs/file-uploader/3.7.0/processing.gif') no-repeat center center;
 }
+
+.pointer{
+    cursor: pointer;
+}
