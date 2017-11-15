@@ -1,15 +1,12 @@
 'use strict';
 config.tpl = {
     html:{
-            header: 'header.html',
-            toolbar: 'toolbar.html',
-            middle: 'middle.html',     
+        header: 'header.html',
+        toolbar: 'toolbar.html',
+        middle: 'middle.html',     
     },
     target: document.body,
-
-    
 }
-
 
 class template{
     constructor(id){

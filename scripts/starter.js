@@ -1,14 +1,5 @@
 'use strict';
-var config = {};
 
-config.url = 'https://qstatix.github.io';
-config.template_name = 'mara'; 
-config.template_path = config.url + '/templates/' + config.template_name;
-config.template_path_js = config.template_path + '/js/';
-config.template_path_html = config.template_path + '/html/';
-config.template_path_css = config.template_path + '/css/';
-config.template_path_img = config.template_path + '/img/';
-config.nocache = Math.random()*1976;
 
 var s;
 var a;
@@ -28,8 +19,15 @@ $(document).ready(function($){
 class starter{
     
     constructor(){
-        return;
         
+        jQuery.ajax({
+            async: false,
+            type: 'GET',
+            url: 'config/config.js',
+            dataType: 'script',
+            error: function(xhr, textStatus, errorThrown) {
+            }
+        })
     };
     
     loadTemplate(){

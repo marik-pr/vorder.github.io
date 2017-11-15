@@ -64,5 +64,9 @@ div {
 }
 
 .pointer{
-    cursor: pointer;
+    cursor: pointer; cursor: hand;
+}
+
+.pointer:hover{
+    text-decoration: underline;
 }
