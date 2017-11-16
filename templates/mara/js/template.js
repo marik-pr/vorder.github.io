@@ -34,8 +34,6 @@ class template{
         
         $('#header_site_name').on('click', function(){vHeader.header_site_name = Math.random()})
         
-        
-        
         return;
     };
     

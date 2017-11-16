@@ -31,7 +31,7 @@ class starter{
     };
     
     loadTemplate(){
-        var u = config.template_path_js + 'template.js?nochache=' + config.nocache;alert(u);
+        var u = config.template_path_js + 'template.js?nochache=' + config.nocache;
         a.getScript(u);
         return;
     }
