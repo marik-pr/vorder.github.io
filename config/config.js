@@ -1,6 +1,6 @@
 var config = {};
 
-config.url = 'https://qstatix.github.io';
+config.url = window.location.href; //'https://qstatix.github.io';
 config.template_name = 'mara'; 
 config.template_path = config.url + '/templates/' + config.template_name;
 config.template_path_js = config.template_path + '/js/';
